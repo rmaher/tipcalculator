@@ -1,0 +1,11 @@
+    <div id="earnings">
+      	<h3>My Earnings Info</h3>
+      	<hr>
+      	<p ng-init="fulltiptotal=0">Tip Total: ${{ fulltiptotal | number:2 }}</p>
+      	<p ng-init="mealcount=0">Meal Count: {{ mealcount }} </p>
+      	<p>Average Tip Per Meal: ${{ avgtip | number:2 }}</p>
+  	</div>
+
+  	<div class="bottom-button"> 
+      	<input type="button" id="refresh" value="Start Over" onClick="window.location.reload()"/>
+    </div>

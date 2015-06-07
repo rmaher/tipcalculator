@@ -1,0 +1,52 @@
+body {
+	font-family: arial;
+	
+	background-color: #A8BD9B;
+	width:100%;
+}
+
+h1{
+	text-align: center;
+}
+
+.heading {
+	text-align: center;
+}
+
+#meal, #charges, #earnings {
+    width: 35%;
+    border: .5em solid;
+    padding:2%;
+    margin-bottom:3%;
+    text-align: center;
+}
+
+#meal {
+	margin-left: 5%;
+	margin-top: 5%;
+	float:left;
+}
+
+#earnings {
+	float: right;
+	margin-left: 45%;
+	margin-right: 5%;
+	
+}
+
+#charges {
+	float:right;
+	margin-right: 5%;
+	margin-top: 5%;
+}
+
+.bottom-button {
+	margin:auto;
+}
+
+#refresh {
+	margin-top: 30%;
+    background-color: #AF9BBD;
+    font-size: 200%;
+    padding: 1.5%;
+}

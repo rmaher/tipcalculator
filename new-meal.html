@@ -1,0 +1,26 @@
+      <div id="meal">
+    		<h3>Enter the Meal Details</h3>
+    		<hr>
+    		<form id="mealcalc" ng-submit="submitForm()" ng-model="basedata">
+    			<p>Base Meal Price: $ 
+    			<input type="number" ng-model="basemeal" /></p>
+
+    			<p>Tax Rate: % 
+    		  <input type="number" ng-model="taxrate" /></p>
+
+    		  <p>Tip Percentage: % 
+    		  <input type="number" ng-model="tippercent" /></p>
+
+    		  <input type="submit" id="submit" value="Submit"/>
+
+    		  <input type="button" id="cancel" value="Cancel" ng-click='clearfields()'/>
+    		</form>
+      </div>
+
+      <div id="charges">
+      	<h3>Customer Charges</h3>
+      	<hr>
+      	<p>Subtotal: ${{ taxtotal | number:2 }}</p>
+        <p>Tip: ${{ tiptotal | number:2 }}</p>
+        <p>Total: ${{ mealtotal | number:2 }} </p>
+      </div>
